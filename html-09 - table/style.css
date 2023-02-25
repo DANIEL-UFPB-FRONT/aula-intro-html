@@ -1,0 +1,14 @@
+* {
+    margin: 5px;
+    /* border-style: solid;
+    border-color: brown; */
+}
+
+table {
+    width: 100%;
+}
+table, th, td {
+    border-style: solid;
+    border-collapse: collapse;
+}
+

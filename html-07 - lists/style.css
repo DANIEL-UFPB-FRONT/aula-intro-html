@@ -1,0 +1,10 @@
+* {
+    margin: 5px;
+}
+
+h1 {
+    border-style: solid;
+    border-color: brown;
+    border-radius: 175px;
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+}
