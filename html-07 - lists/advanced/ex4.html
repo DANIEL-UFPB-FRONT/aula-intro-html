@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+        ul {
+            list-style: none; /* Remove o estilo default */
+        }
+        ul.custom ::before{
+            content: "\1F680"; /* Unicode para um marcador personalizado */
+            margin-right:10px
+        }
+    </style>
+    
+    <ul class="custom">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    
+</body>
+</html>
